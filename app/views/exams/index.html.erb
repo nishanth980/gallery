@@ -1,0 +1,50 @@
+<%- model_class = Exam -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:answer1) %></th>
+      <th><%= model_class.human_attribute_name(:answer2) %></th>
+      <th><%= model_class.human_attribute_name(:answer3) %></th>
+      <th><%= model_class.human_attribute_name(:answer4) %></th>
+      <th><%= model_class.human_attribute_name(:answer5) %></th>
+      <th><%= model_class.human_attribute_name(:answer6) %></th>
+      <th><%= model_class.human_attribute_name(:answer7) %></th>
+      <th><%= model_class.human_attribute_name(:answer8) %></th>
+      <th>test attempted at</th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @exams.each do |exam| %>
+      <tr>
+        <td><%= link_to exam.id, exam_path(exam) %></td>
+        <td><%= exam.answer1 %></td>
+        <td><%= exam.answer2 %></td>
+        <td><%= exam.answer3 %></td>
+        <td><%= exam.answer4 %></td>
+        <td><%= exam.answer5 %></td>
+        <td><%= exam.answer6 %></td>
+        <td><%= exam.answer7 %></td>
+        <td><%= exam.answer8 %></td>
+        <td><%=l exam.created_at %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_exam_path(exam), :class => 'btn btn-mini' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      exam_path(exam),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-mini btn-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to t('.Attempt the test', :default => t("helpers.links.new")),
+            new_exam_path,
+            :class => 'btn btn-primary' %>
