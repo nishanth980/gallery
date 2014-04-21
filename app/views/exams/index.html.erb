@@ -1,12 +1,22 @@
 <%- model_class = Exam -%>
 <div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
+  <h1><i><u>This is an online Test </u></i></h1>
 </div>
 
 <h2>Good Luck Buddy, Please click the below button to attempt the test </h2>  </br>
 <img src="/images.jpeg" alt="Smiley face" height="200" width="200"> 
-<img src="/man_maintenance.jpg" alt="Smiley face" width="200" height="200"><h3>
-
-<%= link_to t('.Attempt the test', :default => t("helpers.links.new")),
+<div id="imge"> </div>
+<%= link_to "Attempt the test",
             new_exam_path,
             :class => 'btn btn-primary' %>
+    
+<style type="text/css" media="screen">
+ #imge {
+        background-image: url("assets/images.jpeg");
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 300px;
+        width: 500px;
+      }
+</style>
+
