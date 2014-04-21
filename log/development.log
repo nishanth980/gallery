@@ -47894,3 +47894,183 @@ ActionController::RoutingError (No route matches [GET] "/images.jpeg"):
 
 
   Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-21 18:28:34 +0530
+Processing by ExamsController#index as HTML
+  [1m[36mExam Load (21.8ms)[0m  [1mSELECT "exams".* FROM "exams" [0m
+  Rendered exams/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 208ms (Views: 185.2ms | ActiveRecord: 21.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-21 18:28:44 +0530
+Processing by ExamsController#index as HTML
+  [1m[35mExam Load (0.4ms)[0m  SELECT "exams".* FROM "exams" 
+  Rendered exams/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 78ms (Views: 17.0ms | ActiveRecord: 59.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-21 18:28:46 +0530
+Processing by ExamsController#index as HTML
+  [1m[36mExam Load (6.4ms)[0m  [1mSELECT "exams".* FROM "exams" [0m
+  Rendered exams/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 14.7ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-21 18:28:59 +0530
+Processing by ExamsController#index as HTML
+  [1m[35mExam Load (4.5ms)[0m  SELECT "exams".* FROM "exams" 
+  Rendered exams/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 13.4ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-21 18:29:00 +0530
+Processing by ExamsController#index as HTML
+  [1m[36mExam Load (3.0ms)[0m  [1mSELECT "exams".* FROM "exams" [0m
+  Rendered exams/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 67ms (Views: 56.1ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-04-21 18:30:13 +0530
+Processing by ExamsController#index as HTML
+  [1m[36mExam Load (0.6ms)[0m  [1mSELECT "exams".* FROM "exams" [0m
+  Rendered exams/index.html.erb within layouts/application (52.2ms)
+Completed 200 OK in 264ms (Views: 243.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/exams.css?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /exams.css - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /bootstrap_and_overrides.css - 200 OK (2ms)
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /questions.css - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (10ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (10ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /twitter/bootstrap/bootstrap-affix.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /twitter/bootstrap.js - 200 OK (26ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /bootstrap.js - 200 OK (1ms)
+
+
+Started GET "/assets/exams.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /exams.js - 200 OK (1ms)
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-04-21 18:30:15 +0530
+Served asset /questions.js - 200 OK (2ms)
+
+
+Started GET "/exams/new" for 127.0.0.1 at 2014-04-21 18:32:29 +0530
+Processing by ExamsController#new as HTML
+  Rendered exams/_form.html.erb (24.5ms)
+  Rendered exams/new.html.erb within layouts/application (93.3ms)
+Completed 200 OK in 153ms (Views: 152.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/exams" for 127.0.0.1 at 2014-04-21 18:33:06 +0530
+Processing by ExamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BB1QgiFajEw8IDpO15kgBwpcrfLLCgcc13Ko5+GuJ1c=", "exam"=>{"answer3"=>"Yes"}, "commit"=>"done with the exam"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (57.5ms)[0m  [1mINSERT INTO "exams" ("answer1", "answer2", "answer3", "answer4", "answer5", "answer6", "answer7", "answer8", "created_at", "question_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["answer1", nil], ["answer2", nil], ["answer3", "Yes"], ["answer4", nil], ["answer5", nil], ["answer6", nil], ["answer7", nil], ["answer8", nil], ["created_at", Mon, 21 Apr 2014 13:03:06 UTC +00:00], ["question_id", nil], ["updated_at", Mon, 21 Apr 2014 13:03:06 UTC +00:00]]
+  [1m[35m (27.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/exams/4
+Completed 302 Found in 92ms (ActiveRecord: 84.9ms)
+
+
+Started GET "/exams/4" for 127.0.0.1 at 2014-04-21 18:33:06 +0530
+Processing by ExamsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mExam Load (0.8ms)[0m  [1mSELECT "exams".* FROM "exams" WHERE "exams"."id" = $1 LIMIT 1[0m  [["id", "4"]]
+  Rendered exams/show.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 87ms (Views: 83.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/exams" for 127.0.0.1 at 2014-04-21 18:33:10 +0530
+Processing by ExamsController#index as HTML
+  [1m[35mExam Load (0.5ms)[0m  SELECT "exams".* FROM "exams" 
+  Rendered exams/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/exams/new" for 127.0.0.1 at 2014-04-21 18:34:50 +0530
+Processing by ExamsController#new as HTML
+  Rendered exams/_form.html.erb (10.8ms)
+  Rendered exams/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/exams" for 127.0.0.1 at 2014-04-21 18:34:54 +0530
+Processing by ExamsController#index as HTML
+  [1m[36mExam Load (0.4ms)[0m  [1mSELECT "exams".* FROM "exams" [0m
+  Rendered exams/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.4ms)
