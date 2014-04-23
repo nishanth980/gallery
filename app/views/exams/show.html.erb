@@ -64,11 +64,11 @@
   <h3><dd>The total marks scored by you is 8</dd><h3>
  <% elsif @exam.answer1!="None of both" and @exam.answer2=="No" and @exam.answer3=="Yes" and @exam.answer4=="Yes" and @exam.answer5=="No" and @exam.answer6=="None of both" and @exam.answer7=="None of both" and @exam.answer8=="None of both" %> 
    <h3><dd>The total marks scored by you is 7</dd><h3>
-    <% elsif @exam.answer1=="None of both" and @exam.answer2!="No" and @exam.answer3=="Yes" and @exam.answer4=="Yes" and @exam.answer5=="No" and @exam.answer6=="None of both" and @exam.answer7=="None of both" and @exam.answer8=="None of both" %>
+    <% elsif @exam.answer1=="None of both" and @exam.answer2!="No" and @exam.answer3=="Yes" and @exam.nswer4=="Yes" and @exam.answer5=="No" and @exam.answer6=="None of both" and @exam.answer7=="None of both" and @exam.answer8=="None of both" %>
        <h3><dd>The total marks scored by you is 7</dd><h3>
  <% elsif @exam.answer1=="None of both" and @exam.answer2=="No" and @exam.answer3!="Yes" and @exam.answer4=="Yes" and @exam.answer5=="No" and @exam.answer6=="None of both" and @exam.answer7=="None of both" and @exam.answer8=="None of both" %>
         <h3><dd>The total marks scored by you is 7</dd><h3>
-<% elsif @exam.answer1=="None of both" and @exam.answer2=="No" and @exam.answer3="Yes" and @exam.answer4!="Yes" and @exam.answer5=="No" and @exam.answer6=="None of both" and @exam.answer7=="None of both" and @exam.answer8=="None of both" %>
+<% elsif @exam.answer1=="None of both" and @exam.answer2=="No" and @exam.answer3=="Yes" and @exam.answer4!="Yes" and @exam.answer5=="No" and @exam.answer6=="None of both" and @exam.answer7=="None of both" and @exam.answer8=="None of both" %>
         <h3><dd>The total marks scored by you is 7</dd><h3>
 <% elsif @exam.answer1=="None of both" and @exam.answer2=="No" and @exam.answer3=="Yes" and @exam.answer4=="Yes" and @exam.answer5!="No" and @exam.answer6=="None of both" and @exam.answer7=="None of both" and @exam.answer8=="None of both" %>
         <h3><dd>The total marks scored by you is 7</dd><h3>
@@ -78,6 +78,7 @@
          <h3><dd>The total marks scored by you is 7</dd><h3>
   <% elsif @exam.answer1=="None of both" and @exam.answer2=="No" and @exam.answer3=="Yes" and @exam.answer4=="Yes" and @exam.answer5=="No" and @exam.answer6=="None of both" and @exam.answer7=="None of both" and @exam.answer8!="None of both" %>
            <h3><dd>The total marks scored by you is 7</dd><h3>
+
 <% elsif @exam.answer1!="None of both" and @exam.answer2!="No" and @exam.answer3=="Yes" and @exam.answer4=="Yes" and @exam.answer5=="No" and @exam.answer6=="None of both" and @exam.answer7=="None of both" and @exam.answer8=="None of both" %>
            <h3><dd>The total marks scored by you is 6</dd><h3>
             <% elsif @exam.answer1!="None of both" and @exam.answer2=="No" and @exam.answer3!="Yes" and @exam.answer4=="Yes" and @exam.answer5=="No" and @exam.answer6=="None of both" and @exam.answer7=="None of both" and @exam.answer8=="None of both" %>

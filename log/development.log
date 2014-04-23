@@ -51534,3 +51534,223 @@ Served asset /bootstrap.js - 304 Not Modified (0ms)
 
 Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-23 19:55:06 +0530
 Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started POST "/exams" for 127.0.0.1 at 2014-04-23 19:58:08 +0530
+Processing by ExamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p+TdoowDTwSn2APKe/eZo7O0hT926mJB5gdKkqFQhH4=", "exam"=>{"answer1"=>"None of both", "answer2"=>"No", "answer3"=>"No", "answer4"=>"No", "answer5"=>"No", "answer6"=>"None of both", "answer7"=>"None of both", "answer8"=>"None of both"}, "commit"=>"done with the exam"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (37.2ms)[0m  INSERT INTO "exams" ("answer1", "answer2", "answer3", "answer4", "answer5", "answer6", "answer7", "answer8", "created_at", "question_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["answer1", "None of both"], ["answer2", "No"], ["answer3", "No"], ["answer4", "No"], ["answer5", "No"], ["answer6", "None of both"], ["answer7", "None of both"], ["answer8", "None of both"], ["created_at", Wed, 23 Apr 2014 14:28:09 UTC +00:00], ["question_id", nil], ["updated_at", Wed, 23 Apr 2014 14:28:09 UTC +00:00]]
+  [1m[36m (13.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3001/exams/20
+Completed 302 Found in 74ms (ActiveRecord: 50.5ms)
+
+
+Started GET "/exams/20" for 127.0.0.1 at 2014-04-23 19:58:09 +0530
+Processing by ExamsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[35mExam Load (0.8ms)[0m  SELECT "exams".* FROM "exams" WHERE "exams"."id" = $1 LIMIT 1  [["id", "20"]]
+  Rendered exams/show.html.erb within layouts/application (124.8ms)
+Completed 200 OK in 311ms (Views: 306.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/exams.css?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /exams.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /questions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /bootstrap.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /twitter/bootstrap.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/exams.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /exams.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-04-23 19:58:10 +0530
+Served asset /questions.js - 304 Not Modified (1ms)
+
+
+Started POST "/exams" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Processing by ExamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p+TdoowDTwSn2APKe/eZo7O0hT926mJB5gdKkqFQhH4=", "exam"=>{"answer1"=>"None of both", "answer2"=>"No", "answer3"=>"No", "answer4"=>"No", "answer5"=>"No", "answer6"=>"None of both", "answer7"=>"None of both", "answer8"=>"None of both"}, "commit"=>"done with the exam"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "exams" ("answer1", "answer2", "answer3", "answer4", "answer5", "answer6", "answer7", "answer8", "created_at", "question_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["answer1", "None of both"], ["answer2", "No"], ["answer3", "No"], ["answer4", "No"], ["answer5", "No"], ["answer6", "None of both"], ["answer7", "None of both"], ["answer8", "None of both"], ["created_at", Wed, 23 Apr 2014 14:38:01 UTC +00:00], ["question_id", nil], ["updated_at", Wed, 23 Apr 2014 14:38:01 UTC +00:00]]
+  [1m[36m (9.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3001/exams/21
+Completed 302 Found in 15ms (ActiveRecord: 10.6ms)
+
+
+Started GET "/exams/21" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Processing by ExamsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mExam Load (0.3ms)[0m  SELECT "exams".* FROM "exams" WHERE "exams"."id" = $1 LIMIT 1  [["id", "21"]]
+  Rendered exams/show.html.erb within layouts/application (49.9ms)
+Completed 200 OK in 63ms (Views: 61.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/questions.css?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /questions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/exams.css?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /exams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/questions.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /questions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/exams.js?body=1" for 127.0.0.1 at 2014-04-23 20:08:01 +0530
+Served asset /exams.js - 304 Not Modified (0ms)
