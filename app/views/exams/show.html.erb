@@ -6,7 +6,7 @@
 <dl class="dl-horizontal">
   <dt><strong><%= model_class.human_attribute_name(:answer1) %>:</strong></dt>
   <dd><%= @exam.answer1 %>
- <% if @exam.answer1=="None of the both" %> <b>( Congrats This is correct answer: you have scrored 1 mark)</b>
+ <% if @exam.answer1=="None of both" %> <b>( Congrats This is correct answer: you have scrored 1 mark)</b>
  <% else %>
  <b>( Sorry the answer is incorrect: the correct one is: None of the both)</b>
   <% end %>
@@ -60,7 +60,7 @@
  <b>( Sorry the answer is incorrect: the correct one is: None of the both)</b>
   <% end %>
   </dd>
-  <% if @exam.answer1=="None of the both" and @exam.answer2=="No" and @exam.answer3=="Yes" and @exam.answer4=="Yes" and @exam.answer5=="No" and @exam.answer6=="None of both" and @exam.answer7=="None of both" and @exam.answer8=="None of both" %> 
+  <% if @exam.answer1=="None of both" and @exam.answer2=="No" and @exam.answer3=="Yes" and @exam.answer4=="Yes" and @exam.answer5=="No" and @exam.answer6=="None of both" and @exam.answer7=="None of both" and @exam.answer8=="None of both" %> 
   <h3><dd>The total marks scored by you is 8</dd><h3>
  <% elsif @exam.answer1!="None of the both" and @exam.answer2=="No" and @exam.answer3=="Yes" and @exam.answer4=="Yes" and @exam.answer5=="No" and @exam.answer6=="None of both" and @exam.answer7=="None of both" and @exam.answer8=="None of both" %> 
    <h3><dd>The total marks scored by you is 7</dd><h3>
