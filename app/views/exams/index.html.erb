@@ -1,23 +1,29 @@
 <%- model_class = Exam -%>
 <div class="page-header">
-  <h1 style = "margin-left:400px;"><i><u>This is an online Test </u></i></h1>
+  <div id="paina"></div>
 </div>
 
-<div id="imge"> </div>
-<h2 style = "margin-left:200px;">Good Luck Buddy, Please click the below button to attempt the test </h2>  </br>
-
-<p style = "margin-left:530px;"><%= link_to "Attempt the test",
+<h2 style="margin-left:200px;">Welcome!..Please click the below button to write exam.</h2>  </br>
+<p style="margin-left:600px;"><%= link_to "Attempt the test",
             new_exam_path,
-            :class => 'btn btn-primary' %> </p>
+            :class => 'btn btn-primary' %></p>
     
 <style type="text/css" media="screen">
  #imge {
         background-image: url("assets/images.jpeg");
         background-repeat: no-repeat;
         background-position: top left;
-        margin-left:450px;
-        height: 200px;
+        height: 300px;
         width: 500px;
+      }
+
+      #paina {
+        background-image: url("assets/test-magazine-logo.jpg");
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 400px;
+        width: 800px;
+        margin-left:200px;
       }
 </style>
 
