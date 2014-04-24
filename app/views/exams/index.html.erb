@@ -3,8 +3,9 @@
   <div id="paina"></div>
 </div>
 
-<h2 style="margin-left:200px;">Welcome!..Please click the below button to write exam.</h2>  </br>
-<p style="margin-left:600px;"><%= link_to "Attempt the test",
+<h2 style="margin-left:200px;">Welcome Dear! Please click the below button to write exam.</h2>  </br>
+<div id="lal"></div></br>
+<p style="margin-left:500px;"><%= link_to "Attempt the test",
             new_exam_path,
             :class => 'btn btn-primary' %></p>
     
@@ -18,12 +19,20 @@
       }
 
       #paina {
-        background-image: url("assets/test-magazine-logo.jpg");
+        background-image: url("assets/exam.jpg");
         background-repeat: no-repeat;
         background-position: top left;
-        height: 400px;
-        width: 800px;
+        height: 200px;
+        width: 900px;
         margin-left:200px;
+      }
+      #lal {
+        background-image: url("assets/fd.jpg");
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 200px;
+        width: 300px;
+        margin-left:450px;
       }
 </style>
 
