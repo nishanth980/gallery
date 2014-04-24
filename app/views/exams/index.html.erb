@@ -1,20 +1,22 @@
 <%- model_class = Exam -%>
 <div class="page-header">
-  <h1><i><u>This is an online Test </u></i></h1>
+  <h1 style = "margin-left:400px;"><i><u>This is an online Test </u></i></h1>
 </div>
 
-<h2>Good Luck Buddy, Please click the below button to attempt the test </h2>  </br>
 <div id="imge"> </div>
-<%= link_to "Attempt the test",
+<h2 style = "margin-left:200px;">Good Luck Buddy, Please click the below button to attempt the test </h2>  </br>
+
+<p style = "margin-left:530px;"><%= link_to "Attempt the test",
             new_exam_path,
-            :class => 'btn btn-primary' %>
+            :class => 'btn btn-primary' %> </p>
     
 <style type="text/css" media="screen">
  #imge {
         background-image: url("assets/images.jpeg");
         background-repeat: no-repeat;
         background-position: top left;
-        height: 300px;
+        margin-left:450px;
+        height: 200px;
         width: 500px;
       }
 </style>
