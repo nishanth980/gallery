@@ -1,7 +1,8 @@
 <%- model_class = Exam -%>
+<div style="background-color:lightblue;"></br></br></br>
 <%if current_user%><div style="color:#00ff00;margin-left:1132px;"><h2><%= link_to "Logout", destroy_user_session_path, :method => :delete %> <%end %></h2></div>
 <div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+  <h1>Exam Results</h1>
 </div>
 
 <dl class="dl-horizontal">
@@ -74,8 +75,8 @@
   <% end %>
 </dl>
 
-<div class="form-actions">
-  <%= link_to t('.back', :default => t("helpers.links.back")),
-              exams_path, :class => 'btn'  %>
+<div class="">
+  <%= link_to 'Back', exams_path, :class => 'btn btn-primary'  %>
 
+</div></br></br></br></br></br></br></br></br></br></br></br></br></br>
 </div>
