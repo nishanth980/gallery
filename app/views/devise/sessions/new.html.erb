@@ -1,0 +1,33 @@
+<div style="background-color:lightgreen;"></br></br></br>
+  <h2 style="color:purple;margin-left:352px;"><b><i><u> Please login to write the test</b></i></u></h2>
+<h2 style="color:green;margin-left:332px;"></h2></br>
+</br>
+<div id="imge">
+<%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+  <div style="float:left;margin-left:70px;margin-top:170px">
+  <%= f.email_field :email, :autofocus => true, :class => "span2"%></div>	
+  <div style="float:left;margin-left:20px;margin-top:152px"><br />
+  <%= f.password_field :password ,:class => "span2" %></div>
+
+  <% if devise_mapping.rememberable? -%>
+    <div style="float:left;color:green;margin-left:-350px;margin-top:205px"><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
+     <div style="hidden;"><br />
+
+  <% end -%>
+
+  <div style="float:left;margin-left:-72px;margin-top:205px"><%= f.submit "Sign in" %></div>  
+<% end %>
+</div>
+<div style="color:blue;margin-left:202px;margin-top:195px;"><%= render "devise/shared/links" %></div>
+</div>
+</br></br></br></br></br></br></br>
+<style type="text/css" media="screen">
+ #imge {
+        background-image: url("/assets/login-form-step-3-b.jpg");
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 400px;
+        width: 700px;
+        margin-left:300px;
+        }
+ </style>

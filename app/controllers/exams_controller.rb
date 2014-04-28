@@ -1,6 +1,7 @@
 class ExamsController < ApplicationController
   # GET /exams
   # GET /exams.json
+  before_filter :authenticate_user!
   def index
     @exams = Exam.all
 
