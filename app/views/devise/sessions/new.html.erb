@@ -1,6 +1,6 @@
 <div style="background-color:lightgreen;"></br></br></br>
  
-<div id="img1"></div>
+<div style="color:purple;margin-left:380px;"><h2><i>Please login to attempt the test</i></h2></div>
 <h2 style="color:green;margin-left:332px;"></h2></br>
 <div id="imge">
 <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
@@ -10,12 +10,12 @@
   <%= f.password_field :password ,:class => "span2" %></div>
 
   <% if devise_mapping.rememberable? -%>
-    <div style="float:left;color:green;margin-left:-350px;margin-top:205px"><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
-  <h5 style="float:left;color:green;margin-left:-220px;margin-top:225px;"><b><%= link_to "Sign up", new_registration_path(resource_name) %></b><br /></h5>
+    <div style="float:left;color:green;margin-left:-350px;margin-top:205px"><%= f.check_box :remember_me %><b>remember me</b></div>
+  <h5 style="float:left;color:green;margin-left:-350px;margin-top:240px;"><b><%= link_to "Sign up", new_registration_path(resource_name) %></b><br /></h5>
 
   <% end -%>
 
-  <div style="float:left;margin-left:-72px;margin-top:219px"><%= f.submit "Sign in" %></div>  
+  <div style="float:left;margin-left:-115px;margin-top:219px"><%= f.submit "" %></div>  
 <% end %>
 </div>
 </br></br></br></br></br></br></br>
@@ -40,4 +40,11 @@
         width: 200px;
         margin-left:500px;
         }
+
+ input[type="submit"]
+{
+  background:url(/assets/login_icon.jpg);
+   height: 50px;
+   width: 115px;
+}
  </style>
