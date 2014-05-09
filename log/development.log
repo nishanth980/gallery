@@ -22803,3 +22803,3565 @@ Served asset /books.js - 304 Not Modified (0ms)
 
 Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:22:26 +0530
 Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-09 13:30:32 +0530
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.5ms)[0m  [1mSELECT "authors".* FROM "authors" [0m
+  Rendered authors/index.html.erb within layouts/application (149.7ms)
+Warning. Error encountered while saving cache /home/nishu/online/tmp/cache/sass/56918d4497d16d6b9ae053badfa9093a883db377/authors.css.scssc: can't dump anonymous class #<Class:0x0000000175b448>
+Compiled authors.css  (10ms)  (pid 10383)
+Warning. Error encountered while saving cache /home/nishu/online/tmp/cache/sass/56918d4497d16d6b9ae053badfa9093a883db377/books.css.scssc: can't dump anonymous class #<Class:0x0000000175b448>
+Compiled books.css  (3ms)  (pid 10383)
+Warning. Error encountered while saving cache /home/nishu/online/tmp/cache/sass/56918d4497d16d6b9ae053badfa9093a883db377/scaffolds.css.scssc: can't dump anonymous class #<Class:0x0000000175b448>
+Compiled scaffolds.css  (48ms)  (pid 10383)
+Compiled application.css  (71ms)  (pid 10383)
+Compiled jquery.js  (2ms)  (pid 10383)
+Compiled jquery_ujs.js  (0ms)  (pid 10383)
+Compiled authors.js  (107ms)  (pid 10383)
+Compiled books.js  (1ms)  (pid 10383)
+Compiled application.js  (127ms)  (pid 10383)
+Completed 200 OK in 457ms (Views: 448.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-09 13:30:33 +0530
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" 
+  Rendered authors/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:30:33 +0530
+Served asset /books.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:30:33 +0530
+Served asset /authors.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:33 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:33 +0530
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:30:33 +0530
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:33 +0530
+Served asset /books.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:33 +0530
+Served asset /authors.js - 304 Not Modified (2ms)
+
+
+Started GET "/authors/5-nikh" for 127.0.0.1 at 2014-05-09 13:30:38 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"5-nikh"}
+  [1m[36mAuthor Load (0.8ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = $1 LIMIT 1[0m  [["id", "5-nikh"]]
+  Rendered authors/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 17ms (Views: 9.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:30:38 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:30:38 +0530
+Served asset /books.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:38 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:30:38 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:38 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:38 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:38 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/4-prabhu" for 127.0.0.1 at 2014-05-09 13:30:43 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"4-prabhu"}
+  [1m[35mAuthor Load (1.2ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = $1 LIMIT 1  [["id", "4-prabhu"]]
+  Rendered authors/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 11ms (Views: 8.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:30:43 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:30:43 +0530
+Served asset /books.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:43 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:30:43 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:43 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:43 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:43 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/3-nish" for 127.0.0.1 at 2014-05-09 13:30:46 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"3-nish"}
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = $1 LIMIT 1[0m  [["id", "3-nish"]]
+  Rendered authors/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:30:46 +0530
+Served asset /authors.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:30:46 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:46 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:30:46 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:46 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:46 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:30:46 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-09 13:31:27 +0530
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (6.2ms)[0m  SELECT "authors".* FROM "authors" 
+  Rendered authors/index.html.erb within layouts/application (25.7ms)
+Completed 200 OK in 76ms (Views: 34.0ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:31:27 +0530
+Served asset /authors.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:31:27 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:31:27 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:31:27 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:31:27 +0530
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:31:27 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:31:27 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/nish" for 127.0.0.1 at 2014-05-09 13:31:29 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"nish"}
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = $1 LIMIT 1[0m  [["id", "nish"]]
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Author with id=nish):
+  app/controllers/authors_controller.rb:16:in `show'
+
+
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/authors/nikh" for 127.0.0.1 at 2014-05-09 13:31:33 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"nikh"}
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = $1 LIMIT 1  [["id", "nikh"]]
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Author with id=nikh):
+  app/controllers/authors_controller.rb:16:in `show'
+
+
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:31:38 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (3.8ms)
+  Rendered authors/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 23ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:31:38 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:31:38 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:31:38 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:31:38 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:31:38 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:31:38 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:31:38 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started POST "/authors" for 127.0.0.1 at 2014-05-09 13:31:42 +0530
+Processing by AuthorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "author"=>{"name"=>"h", "age"=>"6"}, "commit"=>"Create Author"}
+  [1m[36m (2.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (6.6ms)[0m  INSERT INTO "authors" ("age", "created_at", "name", "unique_name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["age", 6], ["created_at", Fri, 09 May 2014 08:01:42 UTC +00:00], ["name", "h"], ["unique_name", nil], ["updated_at", Fri, 09 May 2014 08:01:42 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mUPDATE "authors" SET "name" = 'h', "age" = 6, "created_at" = '2014-05-09 08:01:42.332744', "updated_at" = '2014-05-09 08:01:42.332744', "unique_name" = 'h' WHERE "authors"."id" = 6[0m
+  [1m[35m (29.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/authors/h
+Completed 302 Found in 84ms (ActiveRecord: 38.3ms)
+
+
+Started GET "/authors/h" for 127.0.0.1 at 2014-05-09 13:31:42 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"h"}
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = $1 LIMIT 1[0m  [["id", "h"]]
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Author with id=h):
+  app/controllers/authors_controller.rb:16:in `show'
+
+
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.6ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:32:30 +0530
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.3ms)[0m  SELECT "authors".* FROM "authors" 
+  Rendered authors/index.html.erb within layouts/application (45.8ms)
+Completed 200 OK in 61ms (Views: 52.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:32:30 +0530
+Served asset /authors.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:32:30 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:32:30 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:30 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:30 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:30 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:30 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/h" for 127.0.0.1 at 2014-05-09 13:32:33 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"h"}
+  [1m[36mAuthor Load (1.2ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'h' LIMIT 1[0m
+  Rendered authors/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 45ms (Views: 11.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:32:33 +0530
+Served asset /authors.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:32:33 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:32:33 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:33 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:33 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:33 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:33 +0530
+Served asset /books.js - 304 Not Modified (2ms)
+
+
+Started GET "/authors/nikh" for 127.0.0.1 at 2014-05-09 13:32:36 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"nikh"}
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'nikh' LIMIT 1
+  Rendered authors/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:32:36 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:32:36 +0530
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:32:36 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:36 +0530
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:36 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:36 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:36 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/prabhu" for 127.0.0.1 at 2014-05-09 13:32:38 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"prabhu"}
+  [1m[36mAuthor Load (0.6ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'prabhu' LIMIT 1[0m
+  Rendered authors/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:32:38 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:32:38 +0530
+Served asset /books.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:39 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:39 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:39 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:39 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:32:39 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/authors/nish" for 127.0.0.1 at 2014-05-09 13:32:40 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"nish"}
+  [1m[35mAuthor Load (0.5ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'nish' LIMIT 1
+  Rendered authors/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:32:41 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:32:41 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:41 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:41 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:41 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:32:41 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:32:41 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:42:08 +0530
+
+SyntaxError (/home/nishu/online/app/models/author.rb:14: syntax error, unexpected tSTRING_BEG, expecting ')'
+      :unique_name  => self.name '#{a}'
+                                  ^
+/home/nishu/online/app/models/author.rb:15: syntax error, unexpected ')', expecting keyword_end
+/home/nishu/online/app/models/author.rb:24: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/authors_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.5ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:42:13 +0530
+
+SyntaxError (/home/nishu/online/app/models/author.rb:14: syntax error, unexpected tUPLUS, expecting ')'
+      :unique_name  => self.name +'#{a}'
+                                  ^
+/home/nishu/online/app/models/author.rb:15: syntax error, unexpected ')', expecting keyword_end
+/home/nishu/online/app/models/author.rb:24: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/authors_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:42:48 +0530
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.5ms)[0m  [1mSELECT "authors".* FROM "authors" [0m
+  Rendered authors/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 63ms (Views: 51.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:42:48 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:42:48 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:42:48 +0530
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:42:48 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:42:48 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:42:48 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:42:48 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:42:56 +0530
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.3ms)[0m  SELECT "authors".* FROM "authors" 
+  Rendered authors/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 24ms (Views: 15.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:42:56 +0530
+Served asset /authors.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:42:56 +0530
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:42:56 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:42:56 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:42:56 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:42:56 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:42:56 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:43:29 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (2.8ms)
+  Rendered authors/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 17ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:43:29 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:43:29 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:43:29 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:43:29 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:43:29 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:43:29 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:43:29 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started POST "/authors" for 127.0.0.1 at 2014-05-09 13:43:34 +0530
+Processing by AuthorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "author"=>{"name"=>"h", "age"=>"22"}, "commit"=>"Create Author"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "authors" ("age", "created_at", "name", "unique_name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["age", 22], ["created_at", Fri, 09 May 2014 08:13:34 UTC +00:00], ["name", "h"], ["unique_name", nil], ["updated_at", Fri, 09 May 2014 08:13:34 UTC +00:00]]
+  [1m[36mAuthor Load (44.8ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE (unique_name IN ('h'))[0m
+  [1m[35m (0.5ms)[0m  UPDATE "authors" SET "name" = 'h', "age" = 22, "created_at" = '2014-05-09 08:13:34.198401', "updated_at" = '2014-05-09 08:13:34.198401', "unique_name" = 'h1' WHERE "authors"."id" = 7
+  [1m[36m (41.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/authors/h1
+Completed 302 Found in 99ms (ActiveRecord: 88.3ms)
+
+
+Started GET "/authors/h1" for 127.0.0.1 at 2014-05-09 13:43:34 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"h1"}
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'h1' LIMIT 1
+  Rendered authors/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:43:34 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:43:34 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:43:34 +0530
+Served asset /scaffolds.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:43:34 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:43:34 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:43:34 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:43:34 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:43:39 +0530
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" [0m
+  Rendered authors/index.html.erb within layouts/application (49.4ms)
+Completed 200 OK in 59ms (Views: 55.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:43:39 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:43:39 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:43:39 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:43:39 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:43:39 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:43:39 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:43:39 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:45:18 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (2.8ms)
+  Rendered authors/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 21ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:45:18 +0530
+Served asset /authors.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:45:18 +0530
+Served asset /books.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:18 +0530
+Served asset /authors.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:18 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:45:18 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:18 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:18 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:45:20 +0530
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.5ms)[0m  SELECT "authors".* FROM "authors" 
+  Rendered authors/index.html.erb within layouts/application (58.4ms)
+Completed 200 OK in 70ms (Views: 67.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:45:21 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:45:21 +0530
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:45:21 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:21 +0530
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:21 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:21 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:21 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:45:22 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (3.2ms)
+  Rendered authors/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:45:22 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:45:22 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:45:22 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:22 +0530
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:22 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:22 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:22 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started POST "/authors" for 127.0.0.1 at 2014-05-09 13:45:27 +0530
+Processing by AuthorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "author"=>{"name"=>"u", "age"=>"5"}, "commit"=>"Create Author"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "authors" ("age", "created_at", "name", "unique_name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["age", 5], ["created_at", Fri, 09 May 2014 08:15:27 UTC +00:00], ["name", "u"], ["unique_name", nil], ["updated_at", Fri, 09 May 2014 08:15:27 UTC +00:00]]
+  [1m[36mAuthor Load (0.8ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE (unique_name IN ('u'))[0m
+  [1m[35m (0.4ms)[0m  UPDATE "authors" SET "name" = 'u', "age" = 5, "created_at" = '2014-05-09 08:15:27.409871', "updated_at" = '2014-05-09 08:15:27.409871', "unique_name" = 'u1' WHERE "authors"."id" = 8
+  [1m[36m (24.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/authors/u1
+Completed 302 Found in 40ms (ActiveRecord: 26.6ms)
+
+
+Started GET "/authors/u1" for 127.0.0.1 at 2014-05-09 13:45:27 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"u1"}
+  [1m[35mAuthor Load (0.5ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'u1' LIMIT 1
+  Rendered authors/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 17ms (Views: 13.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:45:27 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:45:27 +0530
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:45:27 +0530
+Served asset /books.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:27 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:27 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:27 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:45:27 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/authors/u1" for 127.0.0.1 at 2014-05-09 13:46:07 +0530
+Processing by AuthorsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "id"=>"u1"}
+  [1m[36mAuthor Load (0.3ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = $1 LIMIT 1[0m  [["id", "u1"]]
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Author with id=u1):
+  app/controllers/authors_controller.rb:75:in `destroy'
+
+
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:46:10 +0530
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.8ms)[0m  SELECT "authors".* FROM "authors" 
+  Rendered authors/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 31ms (Views: 18.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:10 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:10 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:10 +0530
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:10 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:10 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:10 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:10 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/authors/u1" for 127.0.0.1 at 2014-05-09 13:46:14 +0530
+Processing by AuthorsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "id"=>"u1"}
+  [1m[36mAuthor Load (1.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = $1 LIMIT 1[0m  [["id", "u1"]]
+Completed 500 Internal Server Error in 5ms
+
+ActiveRecord::RecordNotFound (Couldn't find Author with id=u1):
+  app/controllers/authors_controller.rb:75:in `destroy'
+
+
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/authors/h" for 127.0.0.1 at 2014-05-09 13:46:23 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"h"}
+  [1m[35mAuthor Load (0.5ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'h' LIMIT 1
+  Rendered authors/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:23 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:23 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:23 +0530
+Served asset /authors.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:23 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:23 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:23 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:23 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:46:30 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (3.0ms)
+  Rendered authors/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:30 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:30 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:30 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:30 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:30 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:30 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:30 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started POST "/authors" for 127.0.0.1 at 2014-05-09 13:46:35 +0530
+Processing by AuthorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "author"=>{"name"=>"m", "age"=>"2"}, "commit"=>"Create Author"}
+  [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO "authors" ("age", "created_at", "name", "unique_name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["age", 2], ["created_at", Fri, 09 May 2014 08:16:35 UTC +00:00], ["name", "m"], ["unique_name", nil], ["updated_at", Fri, 09 May 2014 08:16:35 UTC +00:00]]
+  [1m[36mAuthor Load (0.3ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE (unique_name IN ('m'))[0m
+  [1m[35m (0.4ms)[0m  UPDATE "authors" SET "name" = 'm', "age" = 2, "created_at" = '2014-05-09 08:16:35.460973', "updated_at" = '2014-05-09 08:16:35.460973', "unique_name" = 'm' WHERE "authors"."id" = 9
+  [1m[36m (27.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/authors/m
+Completed 302 Found in 40ms (ActiveRecord: 31.8ms)
+
+
+Started GET "/authors/m" for 127.0.0.1 at 2014-05-09 13:46:35 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"m"}
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'm' LIMIT 1
+  Rendered authors/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:35 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:35 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:35 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:35 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:35 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:35 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:35 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:46:38 +0530
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.5ms)[0m  [1mSELECT "authors".* FROM "authors" [0m
+  Rendered authors/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:38 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:38 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:38 +0530
+Served asset /authors.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:38 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:38 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:38 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:38 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:46:42 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (6.2ms)
+  Rendered authors/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 59ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:42 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:42 +0530
+Served asset /books.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:42 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:42 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:42 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:42 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:42 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/authors" for 127.0.0.1 at 2014-05-09 13:46:46 +0530
+Processing by AuthorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "author"=>{"name"=>"m", "age"=>"4"}, "commit"=>"Create Author"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "authors" ("age", "created_at", "name", "unique_name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["age", 4], ["created_at", Fri, 09 May 2014 08:16:46 UTC +00:00], ["name", "m"], ["unique_name", nil], ["updated_at", Fri, 09 May 2014 08:16:46 UTC +00:00]]
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE (unique_name IN ('m'))
+  [1m[36m (0.4ms)[0m  [1mUPDATE "authors" SET "name" = 'm', "age" = 4, "created_at" = '2014-05-09 08:16:46.509781', "updated_at" = '2014-05-09 08:16:46.509781', "unique_name" = 'm' WHERE "authors"."id" = 10[0m
+  [1m[35m (22.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/authors/m
+Completed 302 Found in 30ms (ActiveRecord: 24.4ms)
+
+
+Started GET "/authors/m" for 127.0.0.1 at 2014-05-09 13:46:46 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"m"}
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'm' LIMIT 1[0m
+  Rendered authors/show.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:46 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:46 +0530
+Served asset /books.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:46 +0530
+Served asset /authors.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:46 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:46 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:46 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:46 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:46:49 +0530
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" 
+  Rendered authors/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:49 +0530
+Served asset /authors.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:49 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:49 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:49 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:49 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:49 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:49 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/m" for 127.0.0.1 at 2014-05-09 13:46:57 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"m"}
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'm' LIMIT 1[0m
+  Rendered authors/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:57 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:57 +0530
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:57 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:57 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:46:57 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:57 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:46:57 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/nish" for 127.0.0.1 at 2014-05-09 13:47:00 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"nish"}
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'nish' LIMIT 1
+  Rendered authors/show.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 56ms (Views: 54.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:01 +0530
+Served asset /authors.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:01 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:01 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:01 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:01 +0530
+Served asset /authors.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:01 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:01 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-05-09 13:47:05 +0530
+Processing by BooksController#new as HTML
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" [0m
+  Rendered books/_form.html.erb (6.5ms)
+  Rendered books/new.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 82ms (Views: 13.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:05 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:05 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:05 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:05 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:05 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:05 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:05 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2014-05-09 13:47:14 +0530
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "book"=>{"title"=>"sfd", "desc"=>"dsfa", "author_id"=>"6"}, "commit"=>"Create Book"}
+  [1m[35m (2.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "books" ("author_id", "created_at", "desc", "title", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["author_id", 6], ["created_at", Fri, 09 May 2014 08:17:14 UTC +00:00], ["desc", "dsfa"], ["title", "sfd"], ["updated_at", Fri, 09 May 2014 08:17:14 UTC +00:00]]
+  [1m[35m (34.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/books/7-sfd
+Completed 302 Found in 46ms (ActiveRecord: 37.8ms)
+
+
+Started GET "/books/7-sfd" for 127.0.0.1 at 2014-05-09 13:47:14 +0530
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"7-sfd"}
+  [1m[36mBook Load (0.7ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1[0m  [["id", "7-sfd"]]
+  [1m[35mBook Load (0.4ms)[0m  SELECT "books".* FROM "books" WHERE (author_id IN (6))
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = 6 LIMIT 1[0m
+  Rendered books/show.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 16ms (Views: 10.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:14 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:14 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:14 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:14 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:14 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:14 +0530
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:14 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2014-05-09 13:47:22 +0530
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "book"=>{"title"=>"sfd", "desc"=>"dsfa", "author_id"=>"9"}, "commit"=>"Create Book"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "books" ("author_id", "created_at", "desc", "title", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["author_id", 9], ["created_at", Fri, 09 May 2014 08:17:22 UTC +00:00], ["desc", "dsfa"], ["title", "sfd"], ["updated_at", Fri, 09 May 2014 08:17:22 UTC +00:00]]
+  [1m[35m (30.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/books/8-sfd
+Completed 302 Found in 34ms (ActiveRecord: 30.7ms)
+
+
+Started GET "/books/8-sfd" for 127.0.0.1 at 2014-05-09 13:47:22 +0530
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"8-sfd"}
+  [1m[36mBook Load (1.2ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1[0m  [["id", "8-sfd"]]
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" WHERE (author_id IN (9))
+  [1m[36mAuthor Load (0.5ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = 9 LIMIT 1[0m
+  Rendered books/show.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 23ms (Views: 17.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:22 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:22 +0530
+Served asset /books.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:22 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:22 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:22 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:22 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:22 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/" for 127.0.0.1 at 2014-05-09 13:47:29 +0530
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.5ms)[0m  SELECT "books".* FROM "books" 
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = 3 LIMIT 1[0m
+  [1m[35mAuthor Load (0.5ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = 6 LIMIT 1
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = 9 LIMIT 1[0m
+  Rendered books/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 25ms (Views: 20.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:29 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:29 +0530
+Served asset /scaffolds.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:29 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:29 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:29 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:29 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:29 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-05-09 13:47:38 +0530
+Processing by BooksController#new as HTML
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" 
+  Rendered books/_form.html.erb (7.4ms)
+  Rendered books/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:38 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:38 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:38 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:38 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:38 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:38 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:38 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2014-05-09 13:47:44 +0530
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "book"=>{"title"=>"fa", "desc"=>"sdf", "author_id"=>"10"}, "commit"=>"Create Book"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "books" ("author_id", "created_at", "desc", "title", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["author_id", 10], ["created_at", Fri, 09 May 2014 08:17:44 UTC +00:00], ["desc", "sdf"], ["title", "fa"], ["updated_at", Fri, 09 May 2014 08:17:44 UTC +00:00]]
+  [1m[36m (41.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/books/9-fa
+Completed 302 Found in 46ms (ActiveRecord: 42.2ms)
+
+
+Started GET "/books/9-fa" for 127.0.0.1 at 2014-05-09 13:47:45 +0530
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"9-fa"}
+  [1m[35mBook Load (0.4ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1  [["id", "9-fa"]]
+  [1m[36mBook Load (1.2ms)[0m  [1mSELECT "books".* FROM "books" WHERE (author_id IN (10))[0m
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = 10 LIMIT 1
+  Rendered books/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 13ms (Views: 8.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:45 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:45 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:45 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:45 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:45 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:45 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:45 +0530
+Served asset /authors.js - 304 Not Modified (2ms)
+
+
+Started GET "/books/9-fa" for 127.0.0.1 at 2014-05-09 13:47:47 +0530
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"9-fa"}
+  [1m[36mBook Load (2.6ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1[0m  [["id", "9-fa"]]
+  [1m[35mBook Load (0.4ms)[0m  SELECT "books".* FROM "books" WHERE (author_id IN (10))
+  [1m[36mAuthor Load (0.5ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = 10 LIMIT 1[0m
+  Rendered books/show.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 17ms (Views: 11.8ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:47 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:47 +0530
+Served asset /books.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:47 +0530
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:47 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:47 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:47 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:47 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-05-09 13:47:48 +0530
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.4ms)[0m  SELECT "books".* FROM "books" 
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = 3 LIMIT 1[0m
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = 6 LIMIT 1
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = 9 LIMIT 1[0m
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = 10 LIMIT 1
+  Rendered books/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 23ms (Views: 20.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:49 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:49 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:49 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:49 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:49 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:49 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:49 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/books/9-fa" for 127.0.0.1 at 2014-05-09 13:47:53 +0530
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "id"=>"9-fa"}
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1[0m  [["id", "9-fa"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mDELETE FROM "books" WHERE "books"."id" = $1[0m  [["id", 9]]
+  [1m[35m (19.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/books
+Completed 302 Found in 25ms (ActiveRecord: 20.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-05-09 13:47:53 +0530
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT "books".* FROM "books" [0m
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = 3 LIMIT 1
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = 6 LIMIT 1[0m
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = 9 LIMIT 1
+  Rendered books/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:53 +0530
+Served asset /authors.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:53 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:53 +0530
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:53 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:53 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:53 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:53 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/books/8-sfd" for 127.0.0.1 at 2014-05-09 13:47:56 +0530
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "id"=>"8-sfd"}
+  [1m[36mBook Load (56.3ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1[0m  [["id", "8-sfd"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "books" WHERE "books"."id" = $1[0m  [["id", 8]]
+  [1m[35m (12.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/books
+Completed 302 Found in 80ms (ActiveRecord: 69.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-05-09 13:47:56 +0530
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.5ms)[0m  [1mSELECT "books".* FROM "books" [0m
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = 3 LIMIT 1
+  [1m[36mAuthor Load (0.6ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = 6 LIMIT 1[0m
+  Rendered books/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 23ms (Views: 19.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:57 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:57 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:57 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:57 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:57 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:57 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:57 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/books/5-sad" for 127.0.0.1 at 2014-05-09 13:47:59 +0530
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "id"=>"5-sad"}
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1  [["id", "5-sad"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "books" WHERE "books"."id" = $1  [["id", 5]]
+  [1m[36m (11.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/books
+Completed 302 Found in 14ms (ActiveRecord: 11.7ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-05-09 13:47:59 +0530
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books" 
+  [1m[36mAuthor Load (1.6ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = 3 LIMIT 1[0m
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = 6 LIMIT 1
+  Rendered books/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:59 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:59 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:47:59 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:59 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:59 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:59 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:47:59 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/books/3-fsd" for 127.0.0.1 at 2014-05-09 13:48:01 +0530
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "id"=>"3-fsd"}
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1[0m  [["id", "3-fsd"]]
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mDELETE FROM "books" WHERE "books"."id" = $1[0m  [["id", 3]]
+  [1m[35m (11.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/books
+Completed 302 Found in 15ms (ActiveRecord: 12.4ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-05-09 13:48:01 +0530
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (2.5ms)[0m  [1mSELECT "books".* FROM "books" [0m
+  [1m[35mAuthor Load (0.6ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = 6 LIMIT 1
+  Rendered books/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 24ms (Views: 19.1ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:01 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:01 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:01 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:01 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:01 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:01 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:01 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/books/4-sad" for 127.0.0.1 at 2014-05-09 13:48:04 +0530
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "id"=>"4-sad"}
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1[0m  [["id", "4-sad"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "books" WHERE "books"."id" = $1[0m  [["id", 4]]
+  [1m[35m (14.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/books
+Completed 302 Found in 17ms (ActiveRecord: 14.9ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-05-09 13:48:04 +0530
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books" [0m
+  [1m[35mAuthor Load (0.5ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = 6 LIMIT 1
+  Rendered books/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 64ms (Views: 62.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:04 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:04 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:04 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:04 +0530
+Served asset /books.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:04 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:04 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:04 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/books/6" for 127.0.0.1 at 2014-05-09 13:48:06 +0530
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "id"=>"6"}
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1[0m  [["id", "6"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.5ms)[0m  [1mDELETE FROM "books" WHERE "books"."id" = $1[0m  [["id", 6]]
+  [1m[35m (10.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/books
+Completed 302 Found in 15ms (ActiveRecord: 12.4ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-05-09 13:48:06 +0530
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books" [0m
+  [1m[35mAuthor Load (0.5ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = 6 LIMIT 1
+  Rendered books/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:06 +0530
+Served asset /authors.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:06 +0530
+Served asset /books.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:06 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:06 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:06 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:06 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:06 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-05-09 13:48:16 +0530
+Processing by BooksController#new as HTML
+  [1m[36mAuthor Load (0.6ms)[0m  [1mSELECT "authors".* FROM "authors" [0m
+  Rendered books/_form.html.erb (4.9ms)
+  Rendered books/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:16 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:16 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:16 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:16 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:16 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:16 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:16 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2014-05-09 13:48:22 +0530
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "book"=>{"title"=>"hh", "desc"=>"hh", "author_id"=>"3"}, "commit"=>"Create Book"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "books" ("author_id", "created_at", "desc", "title", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["author_id", 3], ["created_at", Fri, 09 May 2014 08:18:22 UTC +00:00], ["desc", "hh"], ["title", "hh"], ["updated_at", Fri, 09 May 2014 08:18:22 UTC +00:00]]
+  [1m[35m (46.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/books/10-hh
+Completed 302 Found in 50ms (ActiveRecord: 46.7ms)
+
+
+Started GET "/books/10-hh" for 127.0.0.1 at 2014-05-09 13:48:22 +0530
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"10-hh"}
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1[0m  [["id", "10-hh"]]
+  [1m[35mBook Load (0.4ms)[0m  SELECT "books".* FROM "books" WHERE (author_id IN (3))
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = 3 LIMIT 1[0m
+  Rendered books/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:22 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:22 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:22 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:22 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:22 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:22 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:22 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/" for 127.0.0.1 at 2014-05-09 13:48:26 +0530
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (1.1ms)[0m  SELECT "books".* FROM "books" 
+  [1m[36mAuthor Load (0.5ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = 6 LIMIT 1[0m
+  [1m[35mAuthor Load (0.5ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = 3 LIMIT 1
+  Rendered books/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 65ms (Views: 61.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:26 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:26 +0530
+Served asset /books.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:26 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:26 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:26 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:26 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:26 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2014-05-09 13:48:34 +0530
+Processing by BooksController#new as HTML
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" [0m
+  Rendered books/_form.html.erb (4.8ms)
+  Rendered books/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:34 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:34 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:34 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:34 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:34 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:34 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:34 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2014-05-09 13:48:40 +0530
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "book"=>{"title"=>"ff", "desc"=>"ff", "author_id"=>"3"}, "commit"=>"Create Book"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "books" ("author_id", "created_at", "desc", "title", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["author_id", 3], ["created_at", Fri, 09 May 2014 08:18:40 UTC +00:00], ["desc", "ff"], ["title", "ff"], ["updated_at", Fri, 09 May 2014 08:18:40 UTC +00:00]]
+  [1m[35m (33.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/books/11-ff
+Completed 302 Found in 38ms (ActiveRecord: 34.5ms)
+
+
+Started GET "/books/11-ff" for 127.0.0.1 at 2014-05-09 13:48:40 +0530
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"11-ff"}
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1[0m  [["id", "11-ff"]]
+  [1m[35mBook Load (0.3ms)[0m  SELECT "books".* FROM "books" WHERE (author_id IN (3))
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = 3 LIMIT 1[0m
+  Rendered books/show.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:40 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:40 +0530
+Served asset /books.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:40 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:40 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:40 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:40 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:40 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2014-05-09 13:48:42 +0530
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (0.4ms)[0m  SELECT "books".* FROM "books" 
+  [1m[36mAuthor Load (0.5ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = 6 LIMIT 1[0m
+  [1m[35mAuthor Load (0.5ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = 3 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = 3 LIMIT 1[0m
+  Rendered books/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 16ms (Views: 11.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:42 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:42 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:42 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:42 +0530
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:42 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:42 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:42 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/books/11-ff" for 127.0.0.1 at 2014-05-09 13:48:46 +0530
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"11-ff"}
+  [1m[35mBook Load (0.8ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = $1 LIMIT 1  [["id", "11-ff"]]
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT "books".* FROM "books" WHERE (author_id IN (3))[0m
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = 3 LIMIT 1
+  Rendered books/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 59ms (Views: 55.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:46 +0530
+Served asset /authors.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:46 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:46 +0530
+Served asset /books.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:46 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:46 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:46 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:46 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:48:59 +0530
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.7ms)[0m  [1mSELECT "authors".* FROM "authors" [0m
+  Rendered authors/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:59 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:59 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:48:59 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:59 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:59 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:59 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:48:59 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:49:39 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (56.0ms)
+  Rendered authors/new.html.erb within layouts/application (59.3ms)
+Completed 200 OK in 82ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:49:39 +0530
+Served asset /authors.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:49:39 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:39 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:49:39 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:39 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:39 +0530
+Served asset /authors.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:39 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started POST "/authors" for 127.0.0.1 at 2014-05-09 13:49:43 +0530
+Processing by AuthorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "author"=>{"name"=>"m", "age"=>"7"}, "commit"=>"Create Author"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "authors" ("age", "created_at", "name", "unique_name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["age", 7], ["created_at", Fri, 09 May 2014 08:19:43 UTC +00:00], ["name", "m"], ["unique_name", nil], ["updated_at", Fri, 09 May 2014 08:19:43 UTC +00:00]]
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE (unique_name IN ('m'))
+  [1m[36m (0.4ms)[0m  [1mUPDATE "authors" SET "name" = 'm', "age" = 7, "created_at" = '2014-05-09 08:19:43.245098', "updated_at" = '2014-05-09 08:19:43.245098', "unique_name" = 'm1' WHERE "authors"."id" = 11[0m
+  [1m[35m (21.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/authors/m1
+Completed 302 Found in 33ms (ActiveRecord: 22.9ms)
+
+
+Started GET "/authors/m1" for 127.0.0.1 at 2014-05-09 13:49:43 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"m1"}
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'm1' LIMIT 1[0m
+  Rendered authors/show.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:49:43 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:49:43 +0530
+Served asset /books.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:49:43 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:43 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:43 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:43 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:43 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:49:47 +0530
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.5ms)[0m  SELECT "authors".* FROM "authors" 
+  Rendered authors/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 21ms (Views: 17.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:49:47 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:49:47 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:47 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:47 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:49:47 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:47 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:47 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:49:59 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (5.7ms)
+  Rendered authors/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 26ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:49:59 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:49:59 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:59 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:59 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:59 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:49:59 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:49:59 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started POST "/authors" for 127.0.0.1 at 2014-05-09 13:50:13 +0530
+Processing by AuthorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "author"=>{"name"=>"j", "age"=>"3"}, "commit"=>"Create Author"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (4.9ms)[0m  INSERT INTO "authors" ("age", "created_at", "name", "unique_name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["age", 3], ["created_at", Fri, 09 May 2014 08:20:13 UTC +00:00], ["name", "j"], ["unique_name", nil], ["updated_at", Fri, 09 May 2014 08:20:13 UTC +00:00]]
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE (unique_name IN ('j'))[0m
+  [1m[35m (0.4ms)[0m  UPDATE "authors" SET "name" = 'j', "age" = 3, "created_at" = '2014-05-09 08:20:13.703818', "updated_at" = '2014-05-09 08:20:13.703818', "unique_name" = 'j' WHERE "authors"."id" = 12
+  [1m[36m (26.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/authors/j
+Completed 302 Found in 42ms (ActiveRecord: 32.7ms)
+
+
+Started GET "/authors/j" for 127.0.0.1 at 2014-05-09 13:50:13 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"j"}
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'j' LIMIT 1
+  Rendered authors/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:50:13 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:50:13 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:50:13 +0530
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:13 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:13 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:13 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:13 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:50:15 +0530
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.5ms)[0m  [1mSELECT "authors".* FROM "authors" [0m
+  Rendered authors/index.html.erb within layouts/application (59.2ms)
+Completed 200 OK in 67ms (Views: 64.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:50:15 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:50:15 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:50:15 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:15 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:15 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:15 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:15 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:50:18 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (3.2ms)
+  Rendered authors/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:50:18 +0530
+Served asset /authors.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:50:18 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:50:18 +0530
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:18 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:18 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:18 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:18 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started POST "/authors" for 127.0.0.1 at 2014-05-09 13:50:22 +0530
+Processing by AuthorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "author"=>{"name"=>"j", "age"=>"6"}, "commit"=>"Create Author"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "authors" ("age", "created_at", "name", "unique_name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["age", 6], ["created_at", Fri, 09 May 2014 08:20:22 UTC +00:00], ["name", "j"], ["unique_name", nil], ["updated_at", Fri, 09 May 2014 08:20:22 UTC +00:00]]
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE (unique_name IN ('j'))
+  [1m[36m (0.4ms)[0m  [1mUPDATE "authors" SET "name" = 'j', "age" = 6, "created_at" = '2014-05-09 08:20:22.916360', "updated_at" = '2014-05-09 08:20:22.916360', "unique_name" = 'j1' WHERE "authors"."id" = 13[0m
+  [1m[35m (89.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/authors/j1
+Completed 302 Found in 97ms (ActiveRecord: 90.9ms)
+
+
+Started GET "/authors/j1" for 127.0.0.1 at 2014-05-09 13:50:23 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"j1"}
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'j1' LIMIT 1[0m
+  Rendered authors/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:50:23 +0530
+Served asset /authors.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:50:23 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:23 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:23 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:23 +0530
+Served asset /authors.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:50:23 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:23 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:50:25 +0530
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.6ms)[0m  SELECT "authors".* FROM "authors" 
+  Rendered authors/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 67ms (Views: 63.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:50:25 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:50:25 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:25 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:50:25 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:25 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:25 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:50:25 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:51:23 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (3.1ms)
+  Rendered authors/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 24ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:24 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:24 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:24 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:24 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:24 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:24 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:24 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started POST "/authors" for 127.0.0.1 at 2014-05-09 13:51:28 +0530
+Processing by AuthorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "author"=>{"name"=>"l", "age"=>"6"}, "commit"=>"Create Author"}
+  [1m[36m (1.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO "authors" ("age", "created_at", "name", "unique_name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["age", 6], ["created_at", Fri, 09 May 2014 08:21:28 UTC +00:00], ["name", "l"], ["unique_name", nil], ["updated_at", Fri, 09 May 2014 08:21:28 UTC +00:00]]
+  [1m[36mAuthor Load (1.1ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE (unique_name IN ('l'))[0m
+  [1m[35m (0.5ms)[0m  UPDATE "authors" SET "name" = 'l', "age" = 6, "created_at" = '2014-05-09 08:21:28.348451', "updated_at" = '2014-05-09 08:21:28.348451', "unique_name" = 'l' WHERE "authors"."id" = 14
+  [1m[36m (26.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/authors/l
+Completed 302 Found in 43ms (ActiveRecord: 32.1ms)
+
+
+Started GET "/authors/l" for 127.0.0.1 at 2014-05-09 13:51:28 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"l"}
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'l' LIMIT 1
+  Rendered authors/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:28 +0530
+Served asset /authors.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:28 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:28 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:28 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:28 +0530
+Served asset /authors.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:28 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:28 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:51:30 +0530
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.6ms)[0m  [1mSELECT "authors".* FROM "authors" [0m
+  Rendered authors/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 25ms (Views: 21.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:30 +0530
+Served asset /authors.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:30 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:30 +0530
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:30 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:30 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:30 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:30 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:51:32 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (3.0ms)
+  Rendered authors/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:32 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:32 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:32 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:32 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:32 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:32 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:32 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/authors" for 127.0.0.1 at 2014-05-09 13:51:36 +0530
+Processing by AuthorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wuXwC/rgX/Xh9lNQKJJdAoq/L7eeVTKYAXBy/bjcB1M=", "author"=>{"name"=>"l", "age"=>"7"}, "commit"=>"Create Author"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO "authors" ("age", "created_at", "name", "unique_name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["age", 7], ["created_at", Fri, 09 May 2014 08:21:36 UTC +00:00], ["name", "l"], ["unique_name", nil], ["updated_at", Fri, 09 May 2014 08:21:36 UTC +00:00]]
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" WHERE (unique_name IN ('l'))
+  [1m[36m (0.4ms)[0m  [1mUPDATE "authors" SET "name" = 'l', "age" = 7, "created_at" = '2014-05-09 08:21:36.030863', "updated_at" = '2014-05-09 08:21:36.030863', "unique_name" = 'lb' WHERE "authors"."id" = 15[0m
+  [1m[35m (20.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/authors/lb
+Completed 302 Found in 30ms (ActiveRecord: 22.6ms)
+
+
+Started GET "/authors/lb" for 127.0.0.1 at 2014-05-09 13:51:36 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"lb"}
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."unique_name" = 'lb' LIMIT 1[0m
+  Rendered authors/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:36 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:36 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:36 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:36 +0530
+Served asset /jquery.js - 304 Not Modified (46ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:36 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:36 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:36 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 13:51:38 +0530
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" 
+  Rendered authors/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:38 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:38 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:38 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:38 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:38 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:38 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:38 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:51:51 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (3.5ms)
+  Rendered authors/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:51 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:52 +0530
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:52 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:52 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:52 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:51:52 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:51:52 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:52:37 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (4.1ms)
+  Rendered authors/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:52:37 +0530
+Served asset /authors.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:52:37 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:52:37 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:52:37 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:52:37 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:52:37 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:52:37 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:52:47 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (3.6ms)
+  Rendered authors/new.html.erb within layouts/application (79.2ms)
+Completed 200 OK in 86ms (Views: 85.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:52:47 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:52:47 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:52:47 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:52:47 +0530
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:52:47 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:52:47 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:52:47 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:52:59 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (7.5ms)
+  Rendered authors/new.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:52:59 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:52:59 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:52:59 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:52:59 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:52:59 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:52:59 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:52:59 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:53:04 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (16.7ms)
+  Rendered authors/new.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 25ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:04 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:04 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:04 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:04 +0530
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:04 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:04 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:04 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:53:15 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (15.1ms)
+  Rendered authors/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 22ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:15 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:15 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:15 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:15 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:15 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:15 +0530
+Served asset /authors.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:15 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:53:15 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (56.6ms)
+  Rendered authors/new.html.erb within layouts/application (58.4ms)
+Completed 200 OK in 65ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:16 +0530
+Served asset /authors.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:16 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:16 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:16 +0530
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:16 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:16 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:16 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:53:26 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (18.0ms)
+  Rendered authors/new.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:26 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:26 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:26 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:26 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:26 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:26 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:26 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:53:33 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (7.9ms)
+  Rendered authors/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:33 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:33 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:33 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:33 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:33 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:33 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:33 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:53:45 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (2.6ms)
+  Rendered authors/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:45 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:45 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:45 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:45 +0530
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:45 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:45 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:45 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:53:59 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (54.6ms)
+  Rendered authors/new.html.erb within layouts/application (56.4ms)
+Completed 200 OK in 64ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:59 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:59 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:53:59 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:59 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:59 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:59 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:53:59 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:54:01 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (4.3ms)
+  Rendered authors/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:54:01 +0530
+Served asset /authors.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:01 +0530
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:54:01 +0530
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:54:01 +0530
+Served asset /books.css - 200 OK (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:01 +0530
+Served asset /books.js - 200 OK (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:01 +0530
+Served asset /authors.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:01 +0530
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:54:13 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (3.7ms)
+  Rendered authors/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 25ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:54:13 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:54:13 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:54:13 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:13 +0530
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:13 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:13 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:14 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:54:41 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (24.0ms)
+  Rendered authors/new.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 41ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:54:41 +0530
+Served asset /authors.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:54:41 +0530
+Served asset /books.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:41 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:54:41 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:41 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:41 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:41 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:54:56 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (15.7ms)
+  Rendered authors/new.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 30ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:54:56 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:54:56 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:54:56 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:56 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:56 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:56 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:56 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:54:58 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (16.5ms)
+  Rendered authors/new.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:54:59 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:54:59 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:54:59 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:59 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:59 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:59 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:54:59 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:55:03 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (15.6ms)
+  Rendered authors/new.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 30ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:55:03 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:55:03 +0530
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:55:03 +0530
+Served asset /books.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:55:03 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:55:03 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:55:03 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:55:03 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:55:28 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/new.html.erb within layouts/application (362.8ms)
+Completed 500 Internal Server Error in 366ms
+
+ActionView::Template::Error (undefined method `an' for #<#<Class:0x007f693410af28>:0x007f693cae9a28>):
+    2: <div style="background-color:lightpink;"></br></br></br>
+    3: 
+    4: <div class="page-header">
+    5:   <h1><%= Create an Author %></h1>
+    6: </div>
+    7: <%= render :partial => 'form' %>
+    8: </div>
+  app/views/authors/new.html.erb:5:in `_app_views_authors_new_html_erb__800573073564558877_70044983198720'
+  app/controllers/authors_controller.rb:29:in `new'
+
+
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.6ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:55:37 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (3.1ms)
+  Rendered authors/new.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:55:37 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:55:37 +0530
+Served asset /books.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:55:37 +0530
+Served asset /scaffolds.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:55:37 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:55:37 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:55:37 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:55:37 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:55:50 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (8.7ms)
+  Rendered authors/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:55:50 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:55:50 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:55:50 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:55:50 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:55:50 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:55:50 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:55:50 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:56:17 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (13.2ms)
+  Rendered authors/new.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:56:17 +0530
+Served asset /authors.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:56:17 +0530
+Served asset /books.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:56:17 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:56:17 +0530
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:56:17 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:56:17 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:56:17 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:56:31 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (11.9ms)
+  Rendered authors/new.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:56:31 +0530
+Served asset /authors.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:56:31 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:56:31 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:56:31 +0530
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:56:31 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:56:31 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:56:31 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 13:56:51 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (8.4ms)
+  Rendered authors/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 27ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 13:56:51 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 13:56:51 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 13:56:51 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 13:56:51 +0530
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 13:56:51 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 13:56:51 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 13:56:51 +0530
+Served asset /books.js - 304 Not Modified (0ms)
