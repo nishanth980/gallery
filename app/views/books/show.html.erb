@@ -1,7 +1,7 @@
 <%- model_class = Book -%>
 <div style="background-color:lightgreen;"></br></br></br>
 <div class="page-header">
-  <h1 style="margin-left:400px; margin-top:10px;"> Congrats your book has been created</h1>
+  <h1 style="margin-left:400px; margin-top:10px;"> Please find the details of your book:</h1>
 </div >
 <div style="margin-left:400px; margin-top:60px;">
 <dl class="dl-horizontal">
@@ -29,6 +29,8 @@
               :method => 'delete',
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
               :class => 'btn btn-danger' %>
+
+<h3 style="margin-left:200px; margin-top:-20px;">Click here to go create a new author:<%= link_to 'New Author', :controller =>"authors", :action =>"new" %></hr>
 </div>
 <div style="background-color:lightgreen;"></br></br></br>
 <div style="background-color:lightgreen;"></br></br></br>

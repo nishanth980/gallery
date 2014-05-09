@@ -1,9 +1,9 @@
 class Author < ActiveRecord::Base
 
 
-	has_many :books
+  has_many :books
 
-    after_create :create_uniquename
+    after_create :create_uniquename, :strip_whitespace
 
 
     def create_uniquename
@@ -22,10 +22,16 @@ class Author < ActiveRecord::Base
     end
     end
 
+      def strip_whitespace
+      self.update_attributes(
+       :name  => self.name.strip.gsub('','').split( /  */ ).join('.')
+       )
+      end
+
      def to_param
-    "#{unique_name}".parameterize
+    "#{id}-#{name}".parameterize
   end
 
 
-	
+  
 end
