@@ -12,7 +12,7 @@
 </dl>
 </div>
 </br></br></br></br></br>
- <% if @boksu.count == 2 %>
+ <% if @boksu.count >= 2 %>
 <h2 style="margin-left:400px; margin-top:10px;"> Other Books by this Author </h2>
 <% @boku.each do |b| %>
 <h3 style="margin-left:470px; margin-top:10px;">Book Name:  &nbsp;&nbsp;&nbsp;<%= b.title %></h3>
