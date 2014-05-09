@@ -10,14 +10,14 @@ class Author < ActiveRecord::Base
     auth=Author.find(:all,:conditions => ['name LIKE ?', self.name] )
     if auth.count > 1
     b = auth.count 
-    a=self.name + "#{b}"
+    a=self.name.strip.gsub('','').split( /  */ ).join('.') + "#{b}"
 
     self.update_attributes(
       :unique_name  => "#{a}"
     )
     else
     self.update_attributes(
-      :unique_name  => self.name
+      :unique_name  => self.name.strip.gsub('','').split( /  */ ).join('.')
     )
     end
     end

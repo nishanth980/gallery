@@ -56246,3 +56246,726 @@ Served asset /authors.js - 304 Not Modified (0ms)
 
 Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 18:21:51 +0530
 Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-09 18:27:56 +0530
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.7ms)[0m  [1mSELECT "authors".* FROM "authors" [0m
+  Rendered authors/index.html.erb within layouts/application (217.7ms)
+Completed 200 OK in 300ms (Views: 289.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 18:27:57 +0530
+Served asset /books.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 18:27:58 +0530
+Served asset /authors.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 18:27:58 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 18:27:58 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 18:27:58 +0530
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 18:27:58 +0530
+Served asset /authors.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 18:27:58 +0530
+Served asset /books.js - 304 Not Modified (1ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 18:28:16 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (4.6ms)
+  Rendered authors/new.html.erb within layouts/application (49.6ms)
+Completed 200 OK in 64ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 18:28:16 +0530
+Served asset /books.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 18:28:16 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 18:28:16 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 18:28:16 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 18:28:16 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 18:28:16 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 18:28:16 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started POST "/authors" for 127.0.0.1 at 2014-05-09 18:28:23 +0530
+Processing by AuthorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CitjqT/bxuziZsSv787MUJm8CyDqW0/1k3TxTBXYAZs=", "author"=>{"name"=>"ddddddd     ddddddddddd", "age"=>"34"}, "commit"=>"Create Author"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (43.2ms)[0m  [1mINSERT INTO "authors" ("age", "created_at", "name", "unique_name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["age", 34], ["created_at", Fri, 09 May 2014 12:58:23 UTC +00:00], ["name", "ddddddd     ddddddddddd"], ["unique_name", nil], ["updated_at", Fri, 09 May 2014 12:58:23 UTC +00:00]]
+  [1m[35mAuthor Load (0.5ms)[0m  SELECT "authors".* FROM "authors" WHERE (name LIKE 'ddddddd ddddddddddd')
+  [1m[36m (0.4ms)[0m  [1mUPDATE "authors" SET "name" = 'ddddddd ddddddddddd', "age" = 34, "created_at" = '2014-05-09 12:58:23.187217', "updated_at" = '2014-05-09 12:58:23.187217', "unique_name" = 'ddddddd ddddddddddd' WHERE "authors"."id" = 12[0m
+  [1m[35m (0.3ms)[0m  UPDATE "authors" SET "name" = 'ddddddd.ddddddddddd', "updated_at" = '2014-05-09 12:58:23.237476' WHERE "authors"."id" = 12
+  [1m[36m (26.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/authors/12-ddddddd-ddddddddddd
+Completed 302 Found in 83ms (ActiveRecord: 71.0ms)
+
+
+Started GET "/authors/12-ddddddd-ddddddddddd" for 127.0.0.1 at 2014-05-09 18:28:23 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"12-ddddddd-ddddddddddd"}
+  [1m[35mAuthor Load (0.7ms)[0m  SELECT "authors".* FROM "authors" WHERE "authors"."id" = $1 LIMIT 1  [["id", "12-ddddddd-ddddddddddd"]]
+  Rendered authors/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 16ms (Views: 12.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 18:28:23 +0530
+Served asset /authors.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 18:28:23 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 18:28:23 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 18:28:23 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 18:28:23 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 18:28:23 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 18:28:23 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 18:28:26 +0530
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.5ms)[0m  [1mSELECT "authors".* FROM "authors" [0m
+  Rendered authors/index.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 31ms (Views: 28.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 18:28:26 +0530
+Served asset /authors.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 18:28:26 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 18:28:26 +0530
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 18:28:26 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 18:28:26 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 18:28:26 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 18:28:26 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateAuthors (20140508134105)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.8ms)[0m  DROP TABLE "authors"
+  [1m[36m (0.8ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20140508134105'[0m
+  [1m[35m (17.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (2.8ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, pg_get_indexdef(d.indexrelid), t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'books'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateBooks (20140508133935)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.5ms)[0m  DROP TABLE "books"
+  [1m[36m (0.6ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20140508133935'[0m
+  [1m[35m (36.3ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 18:29:01 +0530
+Processing by AuthorsController#index as HTML
+PG::UndefinedTable: ERROR:  relation "authors" does not exist
+LINE 4:              WHERE a.attrelid = '"authors"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"authors"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "authors" does not exist
+LINE 4:              WHERE a.attrelid = '"authors"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"authors"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+):
+  activerecord (3.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:1106:in `async_exec'
+  activerecord (3.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:1106:in `exec_no_cache'
+  activerecord (3.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:650:in `block in exec_query'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract_adapter.rb:280:in `block in log'
+  activesupport (3.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract_adapter.rb:275:in `log'
+  activerecord (3.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:649:in `exec_query'
+  activerecord (3.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:1231:in `column_definitions'
+  activerecord (3.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:845:in `columns'
+  activerecord (3.2.1) lib/active_record/connection_adapters/schema_cache.rb:12:in `block in initialize'
+  activerecord (3.2.1) lib/active_record/model_schema.rb:228:in `yield'
+  activerecord (3.2.1) lib/active_record/model_schema.rb:228:in `default'
+  activerecord (3.2.1) lib/active_record/model_schema.rb:228:in `columns'
+  activerecord (3.2.1) lib/active_record/model_schema.rb:237:in `columns_hash'
+  activerecord (3.2.1) lib/active_record/locking/optimistic.rb:129:in `locking_enabled?'
+  activerecord (3.2.1) lib/active_record/relation.rb:169:in `exec_queries'
+  activerecord (3.2.1) lib/active_record/relation.rb:159:in `block in to_a'
+  activerecord (3.2.1) lib/active_record/explain.rb:33:in `logging_query_plan'
+  activerecord (3.2.1) lib/active_record/relation.rb:158:in `to_a'
+  activerecord (3.2.1) lib/active_record/relation/finder_methods.rb:159:in `all'
+  activerecord (3.2.1) lib/active_record/querying.rb:5:in `all'
+  app/controllers/authors_controller.rb:5:in `index'
+  actionpack (3.2.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.1) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.1) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:414:in `_run__2367132216565656457__process_action__349172358384510303__callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.1) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.1) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.1) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.1) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.1) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.1) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.1) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.1) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.1) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:589:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.1) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `_run__3560547515426406288__call__1600012100470387108__callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/nishu/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/nishu/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/nishu/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 18:29:02 +0530
+Processing by AuthorsController#index as HTML
+PG::UndefinedTable: ERROR:  relation "authors" does not exist
+LINE 4:              WHERE a.attrelid = '"authors"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"authors"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+
+Completed 500 Internal Server Error in 6ms
+
+ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  relation "authors" does not exist
+LINE 4:              WHERE a.attrelid = '"authors"'::regclass
+                                        ^
+:             SELECT a.attname, format_type(a.atttypid, a.atttypmod), d.adsrc, a.attnotnull
+              FROM pg_attribute a LEFT JOIN pg_attrdef d
+                ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+             WHERE a.attrelid = '"authors"'::regclass
+               AND a.attnum > 0 AND NOT a.attisdropped
+             ORDER BY a.attnum
+):
+  activerecord (3.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:1106:in `async_exec'
+  activerecord (3.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:1106:in `exec_no_cache'
+  activerecord (3.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:650:in `block in exec_query'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract_adapter.rb:280:in `block in log'
+  activesupport (3.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract_adapter.rb:275:in `log'
+  activerecord (3.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:649:in `exec_query'
+  activerecord (3.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:1231:in `column_definitions'
+  activerecord (3.2.1) lib/active_record/connection_adapters/postgresql_adapter.rb:845:in `columns'
+  activerecord (3.2.1) lib/active_record/connection_adapters/schema_cache.rb:12:in `block in initialize'
+  activerecord (3.2.1) lib/active_record/model_schema.rb:228:in `yield'
+  activerecord (3.2.1) lib/active_record/model_schema.rb:228:in `default'
+  activerecord (3.2.1) lib/active_record/model_schema.rb:228:in `columns'
+  activerecord (3.2.1) lib/active_record/model_schema.rb:237:in `columns_hash'
+  activerecord (3.2.1) lib/active_record/locking/optimistic.rb:129:in `locking_enabled?'
+  activerecord (3.2.1) lib/active_record/relation.rb:169:in `exec_queries'
+  activerecord (3.2.1) lib/active_record/relation.rb:159:in `block in to_a'
+  activerecord (3.2.1) lib/active_record/explain.rb:33:in `logging_query_plan'
+  activerecord (3.2.1) lib/active_record/relation.rb:158:in `to_a'
+  activerecord (3.2.1) lib/active_record/relation/finder_methods.rb:159:in `all'
+  activerecord (3.2.1) lib/active_record/querying.rb:5:in `all'
+  app/controllers/authors_controller.rb:5:in `index'
+  actionpack (3.2.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.1) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.1) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:414:in `_run__2367132216565656457__process_action__349172358384510303__callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.1) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.1) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.1) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.1) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.1) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.1) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.1) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.1) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.1) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.1) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:66:in `call'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:66:in `dispatch'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:30:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.1) lib/action_dispatch/routing/route_set.rb:589:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.1) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `_run__3560547515426406288__call__1600012100470387108__callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.1) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.1) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.1) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.1) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.1) lib/rails/engine.rb:479:in `call'
+  railties (3.2.1) lib/rails/application.rb:220:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.1) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/nishu/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/nishu/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/nishu/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (8.4ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.6ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateBooks (20140508133935)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (89.4ms)[0m  [1mCREATE TABLE "books" ("id" serial primary key, "title" character varying(255), "desc" text, "author_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20140508133935')
+  [1m[36m (19.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateAuthors (20140508134105)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (74.7ms)[0m  [1mCREATE TABLE "authors" ("id" serial primary key, "name" character varying(255), "age" integer, "unique_name" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20140508134105')
+  [1m[36m (13.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (3.7ms)[0m  [1m SELECT distinct i.relname, d.indisunique, d.indkey, pg_get_indexdef(d.indexrelid), t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'authors'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+[0m
+  [1m[35m (1.7ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, pg_get_indexdef(d.indexrelid), t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'books'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 18:29:03 +0530
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.5ms)[0m  SELECT "authors".* FROM "authors" 
+  Rendered authors/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:03 +0530
+Served asset /authors.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:03 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:03 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:03 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:03 +0530
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:03 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:03 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 18:29:05 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (7.4ms)
+  Rendered authors/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 28ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:05 +0530
+Served asset /authors.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:05 +0530
+Served asset /authors.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:05 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:05 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:05 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:05 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:05 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started POST "/authors" for 127.0.0.1 at 2014-05-09 18:29:12 +0530
+Processing by AuthorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CitjqT/bxuziZsSv787MUJm8CyDqW0/1k3TxTBXYAZs=", "author"=>{"name"=>"dd kai", "age"=>"45"}, "commit"=>"Create Author"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "authors" ("age", "created_at", "name", "unique_name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["age", 45], ["created_at", Fri, 09 May 2014 12:59:12 UTC +00:00], ["name", "dd kai"], ["unique_name", nil], ["updated_at", Fri, 09 May 2014 12:59:12 UTC +00:00]]
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE (name LIKE 'dd kai')[0m
+  [1m[35m (0.3ms)[0m  UPDATE "authors" SET "name" = 'dd kai', "age" = 45, "created_at" = '2014-05-09 12:59:12.087255', "updated_at" = '2014-05-09 12:59:12.087255', "unique_name" = 'dd kai' WHERE "authors"."id" = 1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "authors" SET "name" = 'dd.kai', "updated_at" = '2014-05-09 12:59:12.093926' WHERE "authors"."id" = 1[0m
+  [1m[35m (51.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/authors/1-dd-kai
+Completed 302 Found in 64ms (ActiveRecord: 53.3ms)
+
+
+Started GET "/authors/1-dd-kai" for 127.0.0.1 at 2014-05-09 18:29:12 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"1-dd-kai"}
+  [1m[36mAuthor Load (0.5ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = $1 LIMIT 1[0m  [["id", "1-dd-kai"]]
+  Rendered authors/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:12 +0530
+Served asset /authors.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:12 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:12 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:12 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:12 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:12 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:12 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 18:29:13 +0530
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.4ms)[0m  SELECT "authors".* FROM "authors" 
+  Rendered authors/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:13 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:13 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:13 +0530
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:13 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:13 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:13 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:13 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2014-05-09 18:29:44 +0530
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (3.7ms)
+  Rendered authors/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 18ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:44 +0530
+Served asset /authors.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:44 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:44 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:44 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:44 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:44 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:44 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started POST "/authors" for 127.0.0.1 at 2014-05-09 18:29:50 +0530
+Processing by AuthorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CitjqT/bxuziZsSv787MUJm8CyDqW0/1k3TxTBXYAZs=", "author"=>{"name"=>"kk         iu", "age"=>"56"}, "commit"=>"Create Author"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "authors" ("age", "created_at", "name", "unique_name", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["age", 56], ["created_at", Fri, 09 May 2014 12:59:50 UTC +00:00], ["name", "kk         iu"], ["unique_name", nil], ["updated_at", Fri, 09 May 2014 12:59:50 UTC +00:00]]
+  [1m[36mAuthor Load (0.6ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE (name LIKE 'kk iu')[0m
+  [1m[35m (0.3ms)[0m  UPDATE "authors" SET "name" = 'kk iu', "age" = 56, "created_at" = '2014-05-09 12:59:50.348216', "updated_at" = '2014-05-09 12:59:50.348216', "unique_name" = 'kk.iu' WHERE "authors"."id" = 2
+  [1m[36m (0.4ms)[0m  [1mUPDATE "authors" SET "name" = 'kk.iu', "updated_at" = '2014-05-09 12:59:50.354889' WHERE "authors"."id" = 2[0m
+  [1m[35m (56.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/authors/2-kk-iu
+Completed 302 Found in 71ms (ActiveRecord: 58.3ms)
+
+
+Started GET "/authors/2-kk-iu" for 127.0.0.1 at 2014-05-09 18:29:50 +0530
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"2-kk-iu"}
+  [1m[36mAuthor Load (0.4ms)[0m  [1mSELECT "authors".* FROM "authors" WHERE "authors"."id" = $1 LIMIT 1[0m  [["id", "2-kk-iu"]]
+  Rendered authors/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:50 +0530
+Served asset /authors.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:50 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:50 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:50 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:50 +0530
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:50 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:50 +0530
+Served asset /books.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2014-05-09 18:29:52 +0530
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.3ms)[0m  SELECT "authors".* FROM "authors" 
+  Rendered authors/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:52 +0530
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:52 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:52 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:52 +0530
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/books.css?body=1" for 127.0.0.1 at 2014-05-09 18:29:52 +0530
+Served asset /books.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:52 +0530
+Served asset /authors.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/books.js?body=1" for 127.0.0.1 at 2014-05-09 18:29:52 +0530
+Served asset /books.js - 304 Not Modified (0ms)
