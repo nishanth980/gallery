@@ -3,11 +3,13 @@ class Author < ActiveRecord::Base
 
   has_many :books
 
-    after_create :create_uniquename, :strip_whitespace
+    after_create :strip_whitespace, :create_uniquename
 
 
     def create_uniquename
-    auth=Author.find(:all,:conditions => ['name LIKE ?', self.name] )
+      bas=self.name
+      val=bas.strip.gsub('','').split( /  */ ).join('.')
+    auth=Author.find(:all,:conditions => ['name LIKE ?', val] )
     if auth.count > 1
     b = auth.count 
     a=self.name.strip.gsub('','').split( /  */ ).join('.') + "#{b}"
