@@ -1,11 +1,13 @@
-<h1>Listing authors</h1>
-
-<table>
+<div style="background-color:lightgreen;"></br></br></br>
+<div id="imge3"></div>
+<h1 style="margin-left:500px; margin-top:-400px;">Listing Authors</h1>
+<div id="imge"></div>
+<table style="margin-left:500px;margin-top:-200px;">
   <tr>
     <th>Name</th>
     <th>Age</th>
     <th>Uni</th>
-    <th></th>
+    <th>Operations</th>
     <th></th>
   </tr>
 
@@ -24,4 +26,28 @@
 
 <br />
 
-<%= link_to 'New Author', new_author_path %>
+<h2 style="margin-left:500px; margin-top:100px;"><%= link_to 'NewAuthor', new_author_path %>&nbsp;&nbsp;<%= link_to 'NewBook', :controller => "books", :action =>"new" %></h2>
+
+<div style="background-color:lightgreen;"></br></br></br><div style="background-color:lightgreen;"></br></br></br>
+<div style="background-color:lightgreen;"></br></br></br>
+
+
+<style type="text/css">
+ #imge {
+        background-image: url("/assets/images.jpg");
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 200px;
+        width: 600px;
+        margin-left:100px;
+      }
+
+#imge3 {
+        background-image: url("/assets/im.jpg");
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 700px;
+        width: 600px;
+        margin-left:500px;
+      }
+</style>

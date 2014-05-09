@@ -1,11 +1,15 @@
-<h1>Listing books</h1>
+<div style="background-color:lightyellow;"></br></br></br>
 
-<table>
+<div id = "imge"></div>
+<h1 style="margin-left:500px; margin-top:-220px;">Listing books</h1>
+<div id = "imge3"></div>
+
+<h3><table style="margin-left:500px; margin-top:20px;">
   <tr>
     <th>Name</th>
     <th>Age</th>
-    <th>Uni</th>
-    <th></th>
+    <th>Unique name</th>
+    <th>Operations</th>
     <th></th>
   </tr>
 
@@ -13,7 +17,7 @@
   <tr>
     <td><%= book.title %></td>
     <td><%= book.desc %></td>
-    <td><%= book.author.name %></td>
+    <td><%= book.author.name if book.author %></td>
 
     <td><%= link_to 'Show', book %></td>
     <td><%= link_to 'Edit', edit_book_path(book) %></td>
@@ -21,7 +25,31 @@
   </tr>
 <% end %>
 </table>
-
+</h3>
 <br />
 
-<%= link_to 'New Author', new_book_path %>
+<h3 style="margin-left:500px; margin-top:10px;"><%= link_to 'New Author', new_book_path %></hr>
+<%= link_to 'New Book', new_book_path %>
+
+<div style="background-color:lightyellow;"></br></br></br>
+
+<style type="text/css">
+ #imge {
+        background-image: url("/assets/images (2).jpg");
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 200px;
+        width: 600px;
+        margin-left:100px;
+      }
+
+#imge3 {
+        background-image: url("/assets/writing-a-book.jpg");
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 300px;
+        width: 600px;
+        margin-left:500px;
+      }
+</style>
+

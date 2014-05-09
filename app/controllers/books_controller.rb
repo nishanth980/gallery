@@ -13,7 +13,13 @@ class BooksController < ApplicationController
   # GET /books/1
   # GET /books/1.json
   def show
+
     @book = Book.find(params[:id])
+    @a = @book.author_id
+    @boksu=Book.find(:all,:conditions => ['author_id IN (?)',@a] )
+    if @boksu.count == 2 
+      @boku = @boksu
+    end
 
     respond_to do |format|
       format.html # show.html.erb

@@ -9,8 +9,16 @@
   <dt><strong><%= model_class.human_attribute_name(:desc) %>:</strong></dt>
   <dd><%= @book.desc %></dd>
   <dt><strong><%= model_class.human_attribute_name(:author_id) %>:</strong></dt>
-  <dd><%= @book.author_id %></dd>
+  <dd><%= @book.author.name if @book.author %></dd>
 </dl>
+
+</br></br></br></br></br>
+ <% if @boksu.count == 2 %>
+<h3> Other Books by this Author </h3>
+<% @boku.each do |b| %>
+<%= b.title %>
+<% end %>
+<% end %>
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),

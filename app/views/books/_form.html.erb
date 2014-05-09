@@ -1,3 +1,4 @@
+<div style="background-color:lightblue;"></br></br></br>
 <%= form_for(@book) do |f| %>
   <% if @book.errors.any? %>
     <div id="error_explanation">
@@ -10,7 +11,7 @@
       </ul>
     </div>
   <% end %>
-
+<div style="margin-left:500px; margin-top:20px;">
   <div class="field">
     <%= f.label :title %><br />
     <%= f.text_field :title %>
@@ -23,4 +24,5 @@
   <div class="actions">
     <%= f.submit %>
   </div>
+</div>
 <% end %>
