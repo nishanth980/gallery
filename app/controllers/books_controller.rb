@@ -17,7 +17,7 @@ class BooksController < ApplicationController
     @book = Book.find_by_title(params[:id])
     @a = @book.author_id
     @boksu=Book.find(:all,:conditions => ['author_id IN (?)',@a] )
-    if @boksu.count == 2 
+    if @boksu.count > 1 
       @boku = @boksu
     end
 
