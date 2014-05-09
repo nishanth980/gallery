@@ -1,26 +1,25 @@
 <%- model_class = Book -%>
+<div style="background-color:lightgreen;"></br></br></br>
 <div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
-</div>
-
+  <h1 style="margin-left:400px; margin-top:10px;"> Congrats your book has been created</h1>
+</div >
+<div style="margin-left:400px; margin-top:60px;">
 <dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:title) %>:</strong></dt>
-  <dd><%= @book.title %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:desc) %>:</strong></dt>
-  <dd><%= @book.desc %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:author_id) %>:</strong></dt>
-  <dd><%= @book.author.name if @book.author %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:title) %>: &nbsp;&nbsp;&nbsp; <%= @book.title %>
+</strong></dt>
+  <dt><strong><%= model_class.human_attribute_name(:desc) %>:  &nbsp;&nbsp;&nbsp;<%= @book.desc %></strong></dt>
+  <dt><strong><%= model_class.human_attribute_name(:author_id) %>:  &nbsp;&nbsp;&nbsp;<%= @book.author.name if @book.author %></strong></dt>
 </dl>
-
+</div>
 </br></br></br></br></br>
  <% if @boksu.count == 2 %>
-<h3> Other Books by this Author </h3>
+<h2 style="margin-left:400px; margin-top:10px;"> Other Books by this Author </h2>
 <% @boku.each do |b| %>
-<%= b.title %>
+<h3 style="margin-left:470px; margin-top:10px;">Book Name:  &nbsp;&nbsp;&nbsp;<%= b.title %></h3>
 <% end %>
 <% end %>
 
-<div class="form-actions">
+<div class="form-actions" style="margin-left:470px; margin-top:70px;">
   <%= link_to t('.back', :default => t("helpers.links.back")),
               books_path, :class => 'btn'  %>
   <%= link_to t('.edit', :default => t("helpers.links.edit")),
@@ -31,3 +30,9 @@
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
               :class => 'btn btn-danger' %>
 </div>
+<div style="background-color:lightgreen;"></br></br></br>
+<div style="background-color:lightgreen;"></br></br></br>
+<div style="background-color:lightgreen;"></br></br></br>
+<div style="background-color:lightgreen;"></br></br></br>
+<div style="background-color:lightgreen;"></br></br></br>
+<div style="background-color:lightgreen;"></br></br></br><div style="background-color:lightgreen;"></br></br></br>

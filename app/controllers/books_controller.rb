@@ -14,7 +14,7 @@ class BooksController < ApplicationController
   # GET /books/1.json
   def show
 
-    @book = Book.find(params[:id])
+    @book = Book.find_by_title(params[:id])
     @a = @book.author_id
     @boksu=Book.find(:all,:conditions => ['author_id IN (?)',@a] )
     if @boksu.count == 2 

@@ -7,12 +7,11 @@ class Author < ActiveRecord::Base
 
 
     def create_uniquename
-    auth=Author.find(:all,:conditions => ['unique_name IN (?)', self.name] )
-    if auth.count==1
-    b=0
-    b=b+1
-    a=self.name
-    a=a+"b"
+    auth=Author.find(:all,:conditions => ['name LIKE ?', self.name] )
+    if auth.count > 1
+    b = auth.count 
+    a=self.name + "#{b}"
+
     self.update_attributes(
       :unique_name  => "#{a}"
     )
