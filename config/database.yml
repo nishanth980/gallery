@@ -12,7 +12,7 @@ development:
   adapter: postgresql
   encoding: utf8
   reconnect: false
-  database: library_development
+  database: gallery_development
   pool: 5
   username: manager
   password:
@@ -25,7 +25,7 @@ test:
   adapter: postgresql
   encoding: utf8
   reconnect: false
-  database: library_test
+  database: gallery_test
   pool: 5
   username: manager
   password:
@@ -35,7 +35,7 @@ production:
   adapter: postgresql
   encoding: utf8
   reconnect: false
-  database: library_production
+  database: gallery_production
   pool: 5
   username: manager
   password:

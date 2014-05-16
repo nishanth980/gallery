@@ -1,11 +1,18 @@
-Library::Application.routes.draw do
+Gallery::Application.routes.draw do
 
 
-   root :to => 'authors#index'
+  resources :images
 
-  resources :books
-    resources :authors
+  resources :roles
 
+   devise_for :users do
+      get "/users/logout", :to => "devise/sessions#destroy"
+      get "/users/login", :to => "devise/sessions#create"
+      get "/users/login_user", :to => "sessions#create_session"
+      get "/user/forgot_password", :to => "passwords#forgot_password"
+    end
+
+  resources :subscribers
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -56,6 +63,7 @@ Library::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
+   root :to => 'subscribers#index'
 
   # See how all your routes lay out with "rake routes"
 

@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+
+<p>
+  <strong>Title:</strong>
+  <%= @image.title %>
+</p>
+<p>
+  <strong>Content:</strong>
+  <%= @image.content %>
+</p>
+
+<div class="thumb">
+	<% for picture in @image.pictures %>
+		
+		<%= link_to image_tag(picture.picture.url(:thumb)), picture.picture.url(:original) %>
+		
+	<% end %>
+</div>	
+
+
+<%= link_to 'Edit', edit_image_path(@image) %> |
+<%= link_to 'Back', images_path %>

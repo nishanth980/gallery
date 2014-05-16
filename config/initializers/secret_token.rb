@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Library::Application.config.secret_token = '92d891cae946235435fbd476dac3732d2e85f3705b21d8c55f9943571eba0154a6a5e827f56935fb0505bd0932e3490c4e0e8c161e0b22a606831308d750b570'
+Gallery::Application.config.secret_token = 'fc8702c7f5fa2e59f0b1121e78d3182ab784b5b5cf0c62c138c46b7b7e2a5eec58e86c535eacf4638b2f9e80b9b7bafa82d4857c4e7890e524b601949e129bd0'

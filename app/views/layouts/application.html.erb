@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Library</title>
+  <title>Gallery</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+
 </head>
 <body>
 

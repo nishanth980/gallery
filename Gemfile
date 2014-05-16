@@ -4,12 +4,12 @@ gem 'rails', '3.2.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'mysql2'
-
- gem 'twitter-bootstrap-rails'
 gem 'pg'
-gem 'friendly_id'
+gem 'mysql2'
+gem "cancan"
+gem 'paperclip'
+
+gem 'devise'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -17,7 +17,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-   gem 'therubyracer'
+  gem 'therubyracer'
 
   gem 'uglifier', '>= 1.0.3'
 end
