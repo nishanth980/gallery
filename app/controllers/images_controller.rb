@@ -2,7 +2,8 @@ class ImagesController < ApplicationController
   # GET /images
   # GET /images.json
   def index
-    @images = Image.all
+
+    @images = Image.find(:all, :conditions => ['user_id=?', "#{current.user.id}"])
 
     respond_to do |format|
       format.html # index.html.erb

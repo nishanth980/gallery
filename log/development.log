@@ -22960,3 +22960,69 @@ Migrating to CreatePictures (20140516133216)
  WHERE a.attrelid = 33094
  AND a.attnum IN (4)
 [0m
+DEPRECATION WARNING: Passing a block to devise_for is deprecated. Please remove the block from devise_for (only the block, the call to devise_for must still exist) and call devise_scope :user do ... end with the block instead. (called from block in <top (required)> at /home/nishu/online/config/routes.rb:8)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-16 21:46:26 +0530
+Processing by SubscribersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+Completed 401 Unauthorized in 156ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-05-16 21:46:26 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/devise-2.2.8/app/views/devise/shared/_links.erb (2.1ms)
+  Rendered /home/nishu/.rvm/gems/ruby-1.9.3-p392/gems/devise-2.2.8/app/views/devise/sessions/new.html.erb within layouts/application (52.9ms)
+Completed 200 OK in 152ms (Views: 134.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-16 21:46:27 +0530
+Served asset /application.css - 304 Not Modified (59ms)
+
+
+Started GET "/assets/subscribers.css?body=1" for 127.0.0.1 at 2014-05-16 21:46:27 +0530
+Served asset /subscribers.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2014-05-16 21:46:27 +0530
+Served asset /roles.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pictures.css?body=1" for 127.0.0.1 at 2014-05-16 21:46:27 +0530
+Served asset /pictures.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/images.css?body=1" for 127.0.0.1 at 2014-05-16 21:46:27 +0530
+Served asset /images.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-05-16 21:46:27 +0530
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/images.js?body=1" for 127.0.0.1 at 2014-05-16 21:46:27 +0530
+Served asset /images.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-16 21:46:27 +0530
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2014-05-16 21:46:27 +0530
+Served asset /roles.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-16 21:46:27 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pictures.js?body=1" for 127.0.0.1 at 2014-05-16 21:46:27 +0530
+Served asset /pictures.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/subscribers.js?body=1" for 127.0.0.1 at 2014-05-16 21:46:27 +0530
+Served asset /subscribers.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-16 21:46:27 +0530
+Served asset /application.js - 304 Not Modified (9ms)
